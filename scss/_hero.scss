@@ -1,0 +1,44 @@
+.hero{
+    padding-top: 150px;
+}
+
+.hero__info{
+    display: flex;
+    justify-content: space-between;
+    .hero__title{
+        color: var(--Solid-Heading, $night);
+        font-family: $font;
+        font-size: 58px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 70px; /* 120.69% */
+        letter-spacing: -1px;
+        span{
+            background: var(--Gradient-Heading, linear-gradient(90deg, #1f11df -2.06%, #11fc31fd 100%));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-family: $font;
+            font-size: 58px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 70px;
+            letter-spacing: -1px;
+        }
+    }
+}
+
+.hero__img {
+  width: 349px;
+  height: 349px;
+  align-items: center;
+  border-radius: 250px;
+  border: 9px solid transparent; /* Указывает прозрачный цвет для границы */
+  background-image: url(''), linear-gradient(to top, #8000FF, #00FDEE);
+  background-origin: border-box; /* Указывает, что фон начинается с границы элемента */
+  background-clip: content-box, border-box; /* Указывает, как фон распределяется между content и border */
+  background-position: top, center;
+  background-size: cover;
+}
+
+

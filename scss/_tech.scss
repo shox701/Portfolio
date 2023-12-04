@@ -1,0 +1,33 @@
+.tech{
+    padding-top: 150px;
+}
+.tech__title{
+    color: $night;
+    text-align: center;
+    font-family: $font;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 54.167% */
+    
+}
+.tech__text{
+    color: var(--dark-content, #666);
+    margin-top: 49px;
+    text-align: center;
+    font-family: $font;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 81.25% */
+}
+.tech__list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    align-items: center;
+.tech__item{
+    margin-left: 80px;
+    margin-top: 40px;
+}
+}

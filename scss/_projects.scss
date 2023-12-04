@@ -1,0 +1,90 @@
+.projects{
+    padding-top: 150px;
+}
+
+.projects__title{
+    color: var(--Solid-Heading, $night);
+    text-align: center;
+    font-family: $font;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 54.167% */
+}
+.projects__text{
+    color: var(--dark-content, #666);
+    text-align: center;
+    font-family: $font;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 81.25% */;
+    margin-top: 49px;
+}
+
+.projects__list{
+    display: flex;
+    margin-top: 80px;
+    flex-wrap: wrap;
+}
+.projects__item{
+    width: 350px;
+    height: 460px;
+    flex-shrink: 0;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-bottom: 62px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: $cardshadow;
+    .project__img{
+        width: 350px;
+        height: 220px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: #FFF;
+    }
+    .project__name{
+        color: #000;
+        text-align: center;
+        font-family: $font;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 26px; /* 92.857% */
+        padding-top: 10px;
+    }
+    .project__desc{
+        width: 360px;
+        color: var(--dark-content, #666);
+        font-family: $font;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 26px; /* 144.444% */
+        padding: 0 40px;
+    }   
+    .project__tech{
+        color: var(--Solid-Heading, #42446E);
+        font-family: $font;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */
+        margin-left: 40px;
+    }
+    .project__link{
+        color: #000;
+        font-family: $font;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 26px; /* 162.5% */
+        text-decoration-line: underline;
+        margin-left: 40px;
+        img{
+            margin-right: 5px;
+        }
+    }
+}
+

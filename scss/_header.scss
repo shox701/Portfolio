@@ -1,0 +1,35 @@
+.header{
+  padding: 20px 0px;
+  box-shadow: $cardshadow;
+
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__logo{
+  align-items: center;
+  img{
+    width: 150px;
+    height: 40px;
+  }
+}
+.nav__list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;
+}
+.nav__item{
+  margin-left: 50px;
+  a{
+    color: #666;
+    font-family: $font;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; 
+  }
+}
+
